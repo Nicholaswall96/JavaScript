@@ -1,0 +1,57 @@
+h1 {
+    color: blue;
+    font-style:italic;
+}
+body {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border: 1px solid blue;
+}
+.center,p {
+    color: blue;
+    
+}
+#Hockey {
+    font-size:xx-large;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+blockquote p {
+    color: blue;
+    font-size:large;
+}
+img,video {
+    width: 300px;
+    margin: auto;
+    border: 1px solid blue;
+    
+}
+h4,h3 {
+    color:blue;
+}
+body {
+    background-color: grey;
+    background-image: url(Paper.jpg);
+    
+}
+@media (min-width: 1px) {
+    h1 {
+        font-size: larger;
+    }
+}
+@media (max-width: 1199px) and (min-width: 1000px) {
+    img {
+        font-size: medium;
+        display: none;
+    }
+}   
+@media (max-width: 999px) {
+    body {
+        background-color: lightgray;
+    }
+    h1 {
+        font-size: small;
+    }
+} 
